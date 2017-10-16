@@ -22,8 +22,7 @@ const Team = () => (
             <Col size="md-3">
            <img className="toriteamimg" src={require("../../assets/images/toridog.jpg")} alt='Tori'/>
             <h1>Tori</h1>
-            <p>Tori White is a full stack developer with a passion for learning. She has always enjoyed solving problems and applies this mindset to her coding.</p>
-            <p>During this project, she has learned that attention to detail is one of the most important skills a web developer can possess.</p>
+            <p>Tori White is a full stack developer with curious mind a passion for learning. She has always enjoyed solving problems and is constantly looking for new ways to challenge herself.</p>
             <p>Tori is the proud owner of two dogs; a boxer/pitbull named Oliver (shown above) and a chihuahua/weiner dog named Charlie. Both dogs were rescued. </p>
             <a href="https://www.linkedin.com/in/tori-white22/" target="_blank"><img className="icons" src={require("../../assets/images/linkedin.png")} /></a>
             <a href="https://github.com/toriw22" target="_blank"><img className="icons" src={require("../../assets/images/github.png")} /></a>

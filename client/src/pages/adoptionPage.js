@@ -133,12 +133,15 @@ class Adoption extends Component {
                       value={this.state.breed}
                       onChange={this.handleInputChange}
                     >
-                    <option value="">Breed</option>
-                    <option value="Chihuahua SH MIX">Chihuahua</option>
-                    <option value="GERM SHEPHERD MIX">German Shepherd</option>
+                    <option value="">Breed (Show All)</option>
+                    <option value="BOXER">Boxer </option>
+                    <option value="BULLDOG">Bulldog </option>
+                    <option value="CHIHUAHUA">Chihuahua </option>
+                    <option value="LABRADOR">Labrador </option>
                     <option value="PIT BULL">Pitbull </option>
-                    <option value="POMERANIAN">Pomeranian</option>
-                    <option value="YORKSHIRE TERR">Yorkshire Terrier</option>
+                    <option value="PUG">Pug </option>
+                    <option value="SCHNAUZER">Schnauzer </option>
+                    <option value="TERRIER">Terrier </option>
                       
                     </select>
                       

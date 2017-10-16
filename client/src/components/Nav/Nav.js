@@ -16,14 +16,6 @@ const Nav = () => (
       <div className="navbar-brand">
         <a href="/login"><h4 className="postPet">Login</h4></a>
       </div>
-      <div className="navbar-header navbar-brand">
-	      <GoogleLogin className="google"
-		    clientId="202041517557-vaub2sonoel9t658dk81dj0hh5qj9lru.apps.googleusercontent.com"
-		    buttonText="GOOGLE LOGIN"
-		    onSuccess={responseGoogle}
-		    onFailure={fail}
-		  />
-      </div>
       <a className="title" href="/">
         <h2 className="header">Adoptable</h2>
       </a>

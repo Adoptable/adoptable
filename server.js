@@ -4,7 +4,6 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const routes = require("./routes/api");
 const scrapeRoutes = require("./routes/scraperoutes");
-// const postroutes = require("./routes/api/apiRoutes");
 // const corsPrefetch = require('cors-prefetch-middleware');
 // const imagesUpload = require('images-upload-middleware'); 
 
@@ -20,9 +19,11 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 // Serve up static assets
 app.use(express.static("client/build"));
+
+// app.use('/static', express.static('./server/static'));
 // app.use(corsPrefetch);
 
-// app.post('/notmultiple', imagesUpload(
+// app.post('/adoptionpage', imagesUpload(
 //     './server/static/files',
 //     'http://localhost:3000/static/files'
 // ));
