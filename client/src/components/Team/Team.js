@@ -22,8 +22,8 @@ const Team = () => (
             <Col size="md-3">
            <img className="toriteamimg" src={require("../../assets/images/toridog.jpg")} alt='Tori'/>
             <h1>Tori</h1>
-            <p>Tori White is a full stack developer with curious mind a passion for learning. She has always enjoyed solving problems and is constantly looking for new ways to challenge herself.</p>
-            <p>Tori is the proud owner of two dogs; a boxer/pitbull named Oliver (shown above) and a chihuahua/weiner dog named Charlie. Both dogs were rescued. </p>
+            <p>Tori White is a full stack developer with curious mind and a love for learning. She has always enjoyed solving problems and is constantly looking for new ways to challenge herself.</p>
+            <p>Tori is the proud owner of two dogs; a boxer/pitbull named Oliver (shown above) and a chihuahua/weiner dog named Charlie. Both dogs were rescued from the OC Animal Shelter.</p>
             <a href="https://www.linkedin.com/in/tori-white22/" target="_blank"><img className="icons" src={require("../../assets/images/linkedin.png")} /></a>
             <a href="https://github.com/toriw22" target="_blank"><img className="icons" src={require("../../assets/images/github.png")} /></a>
             </Col>
@@ -32,7 +32,7 @@ const Team = () => (
             <h1>Peter</h1>
             <p>Peter was most recently working in sales at a SaaS marketing analytics company. Here was where he gained most of his exposure and curiosity for technology and web development. </p>
 
-<p>Peter is the proud father of a terrier mix named Astro. Astro lives with Peter and his family where his mom feeds him fresh chicken, ground beef, and Costco hotdogs every day.</p>
+            <p>Peter is the proud father of a terrier mix named Astro. Astro lives with Peter and his family where his mom feeds him fresh chicken, ground beef, and Costco hotdogs every day.</p>
 
             <a href="https://www.linkedin.com/in/ppham0203/" target="_blank"><img className="icons" src={require("../../assets/images/linkedin.png")} /></a>
             <a href="https://github.com/ppham0203" target="_blank"><img className="icons" src={require("../../assets/images/github.png")} /></a>
