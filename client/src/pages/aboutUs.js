@@ -10,7 +10,7 @@ class aboutUs extends Component {
     return (
       <div>
         <Nav />
-        <Hero backgroundImage="http://www.readersdigest.co.uk/sites/default/files/styles/header_v3/public/article-top/dog-talk.jpg?itok=ifqpfKcp">
+        <Hero backgroundImage="https://s-i.huffpost.com/gen/3437614/images/o-DOG-SHELTER-facebook.jpg">
           <Row>
             <Col size="md-12">
               <h2 className="aboutPar">About Us</h2>
