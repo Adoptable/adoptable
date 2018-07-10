@@ -28,7 +28,7 @@ const Nav = () => (
       <div className="navbar-right">
         <a href="/adoptionpage">
           <div className="navbar-brand">
-            <a href="/adoptionpage"><h4 className="postPet">Post a Pet</h4></a>
+            <a href="/adoptionpage"><h4 className="postPet">Add a Pet</h4></a>
           </div>
         </a>
         <a href="/aboutUs">

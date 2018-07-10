@@ -3,10 +3,14 @@ nav.navbar {
 	display: flex;
 }
 
-a.navbar-brand {
+div.navbar-brand {
 	font-size: 23px;
 	font-family: "News Cycle","Arial Narrow Bold",sans-serif;
 	color: white;
+	min-width: 135px !important;
+	max-width: 135px !important;
+	width: 135px !important;
+	text-align: center;
 }
 
 h4.postPet {
@@ -63,7 +67,5 @@ a.title{
 
 
 .navbar-right {
-	position: absolute;
-	right: 15px;
-	z-index:4;
+	margin-right: 0 !important;
 }
