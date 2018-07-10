@@ -1,5 +1,6 @@
 nav.navbar {
 	margin-bottom: 0;
+	display: flex;
 }
 
 a.navbar-brand {
@@ -9,7 +10,6 @@ a.navbar-brand {
 }
 
 h4.postPet {
-	float: right;
 	font-family: "News Cycle","Arial Narrow Bold",sans-serif;
 	color: white;
 	padding-top: -1;
@@ -19,9 +19,8 @@ h4.postPet {
 	font-size: 23px;
 }
 
-h4.postPet.rightSide{
-	margin-right: 15px;
-}
+
+
 
 .adoptionPgSelect {
 	height: 38px;
@@ -44,15 +43,27 @@ button.submitBtn {
 	background-color: #eb6864;
 }
 
-a>h2.header{
-	position: relative;
-    left: 33.5%;
-    margin-top: 8px;
-    margin-bottom: -48.5px;
-    width: 0;
+h2 {
+	display: flex;
+	margin-top: 0px !important;
+	margin-bottom: 0px !important;
 }
 
-.navbar-brand.navbar-right {
-	position: relative;
+.header{
+    margin-top: 0px !important;
+	margin-bottom: 0px !important;
+}
+
+a.title{
+	margin-left: auto !important;
+	margin-right: auto !important;
+	display: flex;
+	align-items: center;
+}
+
+
+.navbar-right {
+	position: absolute;
+	right: 15px;
 	z-index:4;
 }
