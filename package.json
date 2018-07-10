@@ -14,7 +14,7 @@
   "license": "ISC",
   "devDependencies": {
     "concurrently": "^3.5.0",
-    "nodemon": "^1.11.0"
+    "nodemon": "^1.18.0"
   },
   "dependencies": {
     "axios": "^0.16.2",
@@ -24,7 +24,7 @@
     "eslint-plugin-react": "^7.4.0",
     "express": "^4.15.4",
     "images-upload-middleware": "^1.1.1",
-    "mongoose": "^4.11.13",
+    "mongoose": "^5.2.2",
     "react-bootstrap": "^0.31.3",
     "react-google-login": "^2.9.3",
     "react-images-uploader": "^1.1.0",

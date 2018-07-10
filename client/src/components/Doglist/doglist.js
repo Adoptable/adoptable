@@ -11,7 +11,7 @@ const DogList = (props) => (
           <div key={item._id}>
             <Col size="xs-4 sm-4">
               <div>
-                <Link to={`/adoptionpets/${item._id}`}><img src={item.image || "https://placehold.it/300x300"} width="350px" height="262.5px" /></Link>
+                <Link to={`/adoptionpets/${item._id}`}><img src={item.image || "https://placehold.it/300x300" } className="dog-image" /></Link>
                 <h3><center>{item.pet_name}</center></h3>
               </div>
             </Col>
